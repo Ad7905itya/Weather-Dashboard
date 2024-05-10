@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Response.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.css" />
+</head>
+
+<body>
+    <main>
+        <!-- Section1 -->
+        <section class="weather-bar">
+            <div class="weather-template">
+                <div class="search-bar">
+                    <label for="search-input">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="search" name="weather" placeholder="Search for Places..." id="search-input">
+                    </label>
+                </div>
+                <div class="weather-image">
+                    <img src="images/weather02-512.webp" alt="cloud">
+                </div>
+
+                <div class="weather-imform">
+                    <h2>24&deg;<sup>c</sup></h2>
+                    <p>Monday, 15:00</p>
+                </div>
+
+                <div class="more-intro">
+                    <h3><i class="fa-solid fa-cloud" style="color: rgb(135, 188, 197);"></i> Mostly Cloudy</h3>
+                    <h3><i class="fa-solid fa-droplet" style="color: rgb(33, 132, 246);"></i> Rain - 30%</h3>
+                </div>
+
+                <div class="pic-new-york">
+                    <div class="new-york">New York, NY USA</div>
+                    <img src="images/new-york-city-getty.jpg" alt="new york">
+                </div>
+            </div>
+        </section>
+
+        <!-- Section2 -->
+        <section class="weather-content">
+            <div class="content">
+                <ul class="change-mode">
+                    <li><a href="#">Today</a></li>
+                    <li><a href="#" id="activation-1">Week</a></li>
+                </ul>
+                <div class="user-detail">
+                    <span id="activation-2">&deg;C</span>
+                    <span>&deg;F</span>
+                    <div class="user">
+                        <img src="images/home.jpg" alt="user">
+                    </div>
+                </div>
+            </div>
+
+            <div class="day-weathers">
+
+                <div class="weather">
+                    <p>Sun</p>
+                    <img src="images/sunny.png" alt="sunny">
+                    <p>32&deg;-22&deg;</p>
+                </div>
+
+                <div class="weather">
+                    <p>Mon</p>
+                    <img src="images/weather02-512.webp" alt="cloud">
+                    <p>28&deg;-12&deg;</p>
+                </div>
+
+                <div class="weather">
+                    <p>Tue</p>
+                    <img src="images/weather02-512.webp" alt="cloud">
+                    <p>24&deg;-10&deg;</p>
+                </div>
+
+                <div class="weather">
+                    <p>Wed</p>
+                    <img src="images/rain.png" alt="rain">
+                    <p>22&deg;-8&deg;</p>
+                </div>
+
+                <div class="weather">
+                    <p>Thu</p>
+                    <img src="images/sunny.png" alt="sunny">
+                    <p>34&deg;-18&deg;</p>
+                </div>
+
+                <div class="weather">
+                    <p>Fri</p>
+                    <img src="images/weather02-512.webp" alt="cloud">
+                    <p>28&deg;-22&deg;</p>
+                </div>
+
+                <div class="weather">
+                    <p>Sat</p>
+                    <img src="images/weather02-512.webp" alt="cloud">
+                    <p>28&deg;-12&deg;</p>
+                </div>
+
+            </div>
+
+            <div class="highlight">
+                <h4>Today's highlights</h4>
+            </div>
+
+            <div class="today-weathers">
+                <div class="today">
+                    <p class="heading">UV Index</p>
+                    <img src="images/uv index.webp" alt="uv">
+                    <p class="bottom">4</p>
+                </div>
+
+                <div class="today">
+                    <p class="heading">Wind Status</p>
+                    <h2>7.74 km/h</h2>
+                    <p class="bottom"><i class="fa-solid fa-location-dot" style="color: rgb(43, 43, 153);"></i>WSW</p>
+                </div>
+
+                <div class="today">
+                    <p class="heading">Sunrise & Sunset</p>
+                    <div id="Sunset">
+                        <i class="fa-solid fa-circle-up" style="color: rgb(235, 245, 46);"></i>
+                        <div>6:35AM <br><span>-1m 46s</span></div>
+                    </div><br>
+                    <div id="Sunset">
+                        <i class="fa-solid fa-circle-down" style="color: rgb(235, 245, 46);"></i>
+                        <div>5:42AM <br><span>+2m 22s</span></div>
+                    </div>
+                </div>
+
+                <div class="today">
+                    <p class="heading">Humidity</p>
+                    <h2>12&percnt;</h2><i class="fa-solid fa-temperature-quarter" id="icon"></i>
+                    <p class="bottom">normal</p>
+                </div>
+
+                <div class="today">
+                    <p class="heading">Visibility</p>
+                    <h2>5.2 km</h2>
+                    <p class="bottom">Average<i class="fa-solid fa-face-frown"></i></p>
+                </div>
+
+                <div class="today">
+                    <p class="heading">Air Quality</p>
+                    <h2>105</h2><i class="fa-solid fa-temperature-three-quarters" id="icon"></i>
+                    <p class="bottom">unhealthy</p>
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <script src="main.js"></script>
+</body>
+
+</html>

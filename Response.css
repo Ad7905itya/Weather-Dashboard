@@ -1,0 +1,141 @@
+@media screen and (max-width: 910px){
+    .day-weathers{
+        overflow-x: scroll;
+        justify-content: start;
+    }
+    .today{
+        width: 170px;
+        height: 170px;
+        display: inline-block;
+    }
+    .bottom{
+        font-size: 16px;
+        left: 45%;
+    }
+    .heading{
+        font-size: 16px;
+    }
+    .today h2{
+        font-size: 20px;
+    }
+
+    .user-detail span{
+        padding: 5px;
+    }
+    .content .user-detail .user{
+        width: 40px;
+        height: 40px;
+    }
+    .today-weathers{
+        
+        margin: 0;
+    }
+    .weather-template{
+        margin-top: -130%;
+    }
+}
+
+@media screen and (max-width: 760px){
+    .weather-imform h2{
+        font-size: 3rem;
+    }
+    .weather-imform p{
+        font-size: 15px;
+    }
+    .more-intro{
+        margin: 10px;
+    }
+    .more-intro h3{
+        font-size: 10px;
+    }
+    .pic-new-york .new-york{
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 610px){
+    .today{
+        width: 120px;
+        height: 120px;
+    }
+    .heading{
+        font-size: 10px;
+    }
+    .today h2{
+        font-size: 13px;
+    }
+    .bottom{
+        font-size: 10px;
+        left: 45%;
+    }
+    #Sunset{
+        font-size: 10px;
+        left: 2%;
+        top: 2%;
+    }
+    #Sunset i{
+        font-size: 15px;
+        margin: 5px;
+    }
+    #icon{
+        font-size: 2.5rem;
+    }
+    .highlight h4{
+        font-size: 16px;
+    }
+    .more-intro{
+        margin: 8px;
+    }
+    .content .change-mode li a{
+        font-size: 12px;
+    }
+    .user-detail span{
+        font-size: 8px;
+        margin: 5px;
+    }
+    .content .user-detail .user{
+        width: 30px;
+        height: 30px;
+    }
+}
+
+
+@media screen and (max-width: 470px){
+    .weather-bar{
+        position: absolute;
+        width: 80%;
+        height: 80%;
+        z-index: 1;
+        top: 50%;
+        left: 45%;
+        transform: translate(-50%,-50%);
+    }
+    .weather-template{
+        position: relative;
+        top: 44%;
+    }
+    .weather-content{
+        position: relative;
+        background-color: rgb(162, 122, 236);
+        width: 100%;
+        height: 220vh;
+        margin: 0;
+        border-radius: 0px;
+    }
+    .search-bar input{
+        background-color: transparent;
+    }
+
+    .today-weathers{
+        position: absolute;
+        bottom: 5px;
+    }
+    .day-weathers{
+        position: absolute;
+        bottom: 40%;
+    }
+    .highlight{
+        position: absolute;
+        bottom: 35%;
+    }
+}

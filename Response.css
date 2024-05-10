@@ -106,8 +106,8 @@
         width: 80%;
         height: 80%;
         z-index: 1;
-        top: 50%;
-        left: 45%;
+        top: 35%;
+        left: 42%;
         transform: translate(-50%,-50%);
     }
     .weather-template{
